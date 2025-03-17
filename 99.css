@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 100%;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.info-section {
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.weight-info {
+    color: gray;
+    font-size: 14px;
+}
+
+
+.portion-selection {
+    margin: 10px 0;
+}
+
+.portion-btn {
+    background: #ddd;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.portion-btn.active {
+    background: red;
+    color: white;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.package {
+    margin: 10px 0;
+}
+
+
+.summary {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.order-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.order-btn:hover {
+    background: darkred;
+}
+
+.category {
+    color: gray;
+    font-size: 14px;
+    margin-top: 10px;
+}
