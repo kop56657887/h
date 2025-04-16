@@ -1,3 +1,6 @@
+html{
+    font-family: sans-serif;
+}
 body {
     background-image: linear-gradient(45deg, #FFFFFF, #ffff, #000, #000);
     margin: 0;
